@@ -1,6 +1,6 @@
 import 'package:get/get.dart';
 import 'package:login_firebase_complete/src/features/authentication/screens/on_boarding/on_boarding_screen.dart';
-import '../screens/welcome_screen/welcome_screen.dart';
+
 
 class SplashScreenController extends GetxController{
   static SplashScreenController get find => Get.find();
