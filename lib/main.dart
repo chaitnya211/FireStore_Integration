@@ -18,7 +18,8 @@ class MyApp extends StatelessWidget {
       theme: TAppTheme.lightTheme,
       darkTheme: TAppTheme.darkTheme,
       themeMode: ThemeMode.system,
-      title: 'Flutter Demo',
+      defaultTransition: Transition.leftToRightWithFade,
+      transitionDuration: const Duration(milliseconds: 500),
       home: SplashScreen(),
     );
   }
