@@ -44,6 +44,7 @@ flutter:
      - assets/images/
      - assets/images/on_boarding_images/
      - assets/logo/
+     - assets/logo/google_logo.png
 
 
   

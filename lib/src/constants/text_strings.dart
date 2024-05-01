@@ -17,3 +17,25 @@ const String tWelcomeTitle = "Build Awesome Apps";
 const String tWelcomeSubTitle = "Let's put your creativity on the developement highway";
 const String tLogin = "Login";
 const String tSignup = "Sign Up";
+
+//  -- Login Page Text Strings
+
+const String tLoginTitle = "Welcome Back,";
+const String tLoginSubTitle = "Make it work, make it right, make it fast.";
+const String tDontHaveAnAccount = "Don't have an account? ";
+const String tSignInWithGoogle = "Sign-In with Google";
+const String tEmail = "E-Mail";
+const String tPassword = "Password";
+const String tForgetPassword = "Forget Password?";
+
+//  -- Signup Page Text Strings
+
+const String tSignUpTitle = "Get On Board!";
+const String tSignUpSubTitle = "Create your profile to start your journey.";
+const String tFullName = "Full Name";
+const String tPhoneNo = "Phoen no";
+const String tAlreadyHaveAnAccount = "Already have an account? ";
+
+//  -- forget password Text Strings
+
+
