@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_state_manager/src/rx_flutter/rx_obx_widget.dart';
 import 'package:liquid_swipe/liquid_swipe.dart';
+import 'package:login_firebase_complete/src/features/authentication/screens/welcome_screen/welcome_screen.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 import '../../controllers/on_boarding_controller.dart';
@@ -50,7 +51,7 @@ class OnBoardingScreen extends StatelessWidget {
             right: 20,
             child: TextButton(
               onPressed: () {
-                obController.Skip();
+                Navigator.push(context, MaterialPageRoute(builder: (context) => WelcomeScreen(),));
               },
               child: const Text(
                 "Skip",

@@ -50,7 +50,4 @@ class OnBoardingController extends GetxController {
       currentPage.value = activePageIndex;
 
   }
-  Skip() =>  controller.jumpToPage(page: 2);
-
-
 }
