@@ -33,9 +33,19 @@ const String tForgetPassword = "Forget Password?";
 const String tSignUpTitle = "Get On Board!";
 const String tSignUpSubTitle = "Create your profile to start your journey.";
 const String tFullName = "Full Name";
-const String tPhoneNo = "Phoen no";
+const String tPhoneNo = "Phone no";
 const String tAlreadyHaveAnAccount = "Already have an account? ";
 
 //  -- forget password Text Strings
 
+const String tForgetPasswordTitle = "Make Selection!";
+const String tForgetPasswordSubTitle = "Select one of the options given below to reset password.";
+const String tResetViaPhone = "Reset via phone verification";
+const String tResetViaEmail = "Reset via Mail verification";
 
+const String tForgetPhoneSubTitle = "Enter your registered phone no to receive OTP";
+const String tForgetEmailSubTitle = "Enter your registered Email to receive OTP";
+
+const String tOtpTitle = "CO\nDE";
+const String tOtpSubTitle = "Verification";
+const String tOtpMessage = "Enter the verification code sent at ";

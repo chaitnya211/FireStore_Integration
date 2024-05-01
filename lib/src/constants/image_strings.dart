@@ -9,3 +9,5 @@ const String tOnBoardingImage3 = "assets/images/on_boarding_images/on_boarding_i
 const String tWelcomeScreenImage = "assets/images/welcome_screen_image1.jpg";
 
 const String tGoogleLogoImage = "assets/logo/google_logo.png";
+
+const String tForgetPassImage = "assets/images/forget_password_image.png";
