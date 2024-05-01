@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:login_firebase_complete/src/features/authentication/screens/login/login_screen.dart';
+import 'package:login_firebase_complete/src/features/authentication/screens/signup/sign_up_screen.dart';
 import '../../../../constants/colors.dart';
 import '../../../../constants/image_strings.dart';
 import '../../../../constants/sizes.dart';
