@@ -1,3 +1,6 @@
+import 'dart:js';
+
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:liquid_swipe/PageHelpers/LiquidController.dart';
 
@@ -50,7 +53,4 @@ class OnBoardingController extends GetxController {
       currentPage.value = activePageIndex;
 
   }
-  Skip() =>  controller.jumpToPage(page: 2);
-
-
 }
