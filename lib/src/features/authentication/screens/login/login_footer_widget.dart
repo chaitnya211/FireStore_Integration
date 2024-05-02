@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
+import 'package:login_firebase_complete/src/features/core/screens/dashboard/dashboard.dart';
 
 import '../../../../constants/image_strings.dart';
 import '../../../../constants/sizes.dart';
@@ -26,7 +28,9 @@ class LoginFooterWidget extends StatelessWidget {
         ),
         const SizedBox(height: tFormHeight - 20),
         TextButton(
-          onPressed: () {},
+          onPressed: () {
+            Get.to(Dashboard());
+          },
           child: Text.rich(
             TextSpan(
                 text: tDontHaveAnAccount,
