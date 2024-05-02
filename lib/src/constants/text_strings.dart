@@ -49,3 +49,12 @@ const String tForgetEmailSubTitle = "Enter your registered Email to receive OTP"
 const String tOtpTitle = "CO\nDE";
 const String tOtpSubTitle = "Verification";
 const String tOtpMessage = "Enter the verification code sent at ";
+
+const String tDashboardTitle = "Hey, Coding with T";
+const String tDashboardHeading = "Explore courses";
+const String tDashboardSearch = "Search...";
+const String tDashboardBannerTitle1 = "Android for begineers";
+const String tDashboardBannerTitle2 = "Java";
+const String tDashboardBannerSubTitle = "10 Lessons";
+const String tDashboardButton = "View all";
+const String tDashboardTopCourses = "Top Courses";
