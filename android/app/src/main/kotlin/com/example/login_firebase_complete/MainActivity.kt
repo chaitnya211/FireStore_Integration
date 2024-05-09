@@ -1,4 +1,4 @@
-package com.example.login_firebase_complete
+package com.education.app
 
 import io.flutter.embedding.android.FlutterActivity
 

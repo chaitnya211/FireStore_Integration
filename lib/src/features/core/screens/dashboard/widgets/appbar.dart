@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login_firebase_complete/src/repository/authentication_repository/authentication_repository.dart';
 
 import '../../../../../constants/image_strings.dart';
 import '../../../../../constants/text_strings.dart';
@@ -25,7 +26,9 @@ class DashboardAppBar extends StatelessWidget implements PreferredSize {
             borderRadius: BorderRadius.circular(10),
           ),
           child: IconButton(
-              onPressed: () {},
+              onPressed: () {
+                AuthenticationRepository.instance.logOut();
+              },
               icon: const Image(image: AssetImage(tUserProfileImage))),
         )
       ],

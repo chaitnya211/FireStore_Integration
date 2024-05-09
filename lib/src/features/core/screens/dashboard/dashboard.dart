@@ -27,7 +27,7 @@ class Dashboard extends StatelessWidget {
                 tDashboardTitle,
                 style: textTheme.bodyText2,
               ),
-              Text(tDashboardHeading, style: TextStyle(color: Colors.white,fontSize: 35,)),
+              Text(tDashboardHeading, style: TextStyle(color: Colors.black87,fontSize: 35,)),
               const SizedBox(height: tDashboardPadding),
 
               // Search Bar
