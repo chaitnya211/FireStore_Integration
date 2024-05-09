@@ -4,7 +4,7 @@ import 'package:get/get.dart';
 import '../../../../constants/image_strings.dart';
 import '../../../../constants/sizes.dart';
 import '../../../../constants/text_strings.dart';
-import '../signup/form_header_widget.dart';
+import '../signup/widgets/form_header_widget.dart';
 import 'forget_password_otp/otp_screen.dart';
 
 class ForgotPasswordPhoneScreen extends StatelessWidget {
